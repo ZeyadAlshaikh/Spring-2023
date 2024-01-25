@@ -1,0 +1,15 @@
+Methods: 
+- what is a method ? D.R.Y
+- Method Parts 
+  - head , Body 
+  .i.e  public static void main( String[] args )
+  {
+    body 
+  }
+  - head:  [access modifier] [return type] name(input args)
+    input args [type name ]
+  .i.e Math.pow(double a , double b )
+
+  - Variable scope 
+  - method overload ( same name methods with diff input args )
+
