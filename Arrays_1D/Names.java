@@ -1,4 +1,4 @@
-package temp;
+package Arrays_1D;
 
 import java.util.Scanner;
 import java.util.Arrays;

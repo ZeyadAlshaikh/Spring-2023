@@ -1,0 +1,34 @@
+2D Arrays
+
+1- how to declare 2D array
+    a. int[][] array = new int[5][5];
+    b. int[][] array; 
+        array = int[5][5];
+    c. int[][] array = {
+                        {1,2,3,4,5},
+                        {6,7,8,9,10}
+                        } 
+
+2- How to access item in the array 
+        array[1][2];
+
+3- how to print 2D array 
+    we use nested loop 
+    for(int i=0; i< array.length ; i++){
+        // his loop 4 rows
+        for(int j = 0; j<array[i].length; j++)
+        {// loop over columns 
+            System.out.print(array[i][j]);
+        }
+    }
+
+4- How assign value to 2D array 
+    we use nested loop 
+    for(int row=0; row< array.length ; row++){
+        // his loop 4 rows
+        for(int column = 0; column<array[row].length; column++)
+        {// loop over columns 
+            array[row][column] =  (int)(Math.random() * 1000);
+        }
+    }
+
